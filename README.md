@@ -29,13 +29,13 @@ GitHub Actions makes it easier than ever to incorporate continuous delivery (CD)
 - **Prerequisites**: We recommend you first complete the following courses: [Hello, GitHub Actions](https://github.com/skills/hello-github-actions) and [Continuous Integration](https://github.com/skills/continuous-integration).
 - **How long**: This course takes less than 30 minutes to complete.
 
-In this course, you will:
+In this, you will:
 
 1. Create a workflow
 2. Add a Dockerfile
 3. Merge your pull request
 
-### How to start this course
+### How to start this
 
 <!-- For start course, run in JavaScript:
 'https://github.com/new?' + new URLSearchParams({
