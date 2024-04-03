@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/JioCoders/hello_package/issues"
   },
+  "publishConfig": {
+    "@JioCoders:registry": "https://npm.pkg.github.com"
+  },
   "homepage": "https://github.com/JioCoders/hello_package#readme"
 }
