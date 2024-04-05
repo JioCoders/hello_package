@@ -1,9 +1,11 @@
 {
   "name": "@jiocoders/hello_package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "js github package to publish",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "exit 0"
   },
   "repository": {
@@ -21,5 +23,9 @@
   "publishConfig": {
     "@jiocoders:registry": "https://npm.pkg.github.com"
   },
-  "homepage": "https://github.com/JioCoders/hello_package#readme"
+  "homepage": "https://github.com/JioCoders/hello_package#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0"
+  }
 }
