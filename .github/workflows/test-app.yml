@@ -1,0 +1,11 @@
+- name: Test application
+  env:
+    MY_SECRET_CRED: ${{ secrets.SECRET01 }}
+  run: npm run test
+
+  steps:
+  - name: Hello world action
+    with: # Set the secret as an input
+      SECRET01: ${{ secrets.SECRET01 }}
+    env: # Or as an environment variable
+      SECRET01: ${{ secrets.SECRET01 }}
